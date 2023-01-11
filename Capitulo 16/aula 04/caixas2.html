@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header{
+
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+h1{
+    box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.534);
+    display: block;
+    text-align: center;
+    border-radius:30px 10px;
+}
+main{
+background-color: white;
+padding: 10px;
+margin: 10px;
+border-radius:30px 10px ;
+}
+article{background-color: lightgray;
+}
+
+article > aside{
+    background-color: rgb(145, 143, 143);
+}
+
+nav{
+background-color: rgb(99, 99, 99);
+padding: 3px;
+box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.452);
+}
+nav > a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+margin-right: 30px;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+footer > p {
+    margin:0px
+}
+#bola{
+    height:100px ;
+    width:100px ;
+    margin: 10px;
+    background-image: linear-gradient(to right ,rgb(255, 0, 0), rgb(241, 215, 215));
+    border-radius: 50%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+    <nav>
+        <a href="#">Link </a>
+        <a href="#">Link </a>
+        <a href="#">Link </a>
+        <a href="#">Link </a>
+        <a href="#">Link </a>
+    </nav>
+    </header>
+<main>
+<section id="assuntos">
+    <article>
+        <h2>Noticia qualquer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem inventore culpa ab iste consequuntur in magni incidunt amet totam! Nostrum dolorum reprehenderit deserunt necessitatibus magnam. Distinctio doloremque sed delectus laboriosam.</p>
+        <aside>Escrito por ciclaninho</aside>
+    </article>
+</section>
+
+<section id="noticias">
+<article>
+    <h2>Noticia aleatoria</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque dolorem reprehenderit cum recusandae? Nam hic quisquam ex cumque impedit, quos alias possimus natus doloremque saepe modi autem illo dicta?</p>
+<aside>
+<p>escrito por fulaninho</p>
+</aside>
+</article>
+
+<article>
+
+
+</article>
+</section>
+</main>
+
+    <footer>
+        Desenvolvodo por Alisson 
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
