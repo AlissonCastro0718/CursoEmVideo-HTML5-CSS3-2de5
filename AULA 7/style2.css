@@ -5,8 +5,8 @@
 }
 
 body{
-background-image: linear-gradient(to bottom,#025951,#02735E);
-height: 100%;
+    background-image: linear-gradient(to bottom,#025951,#02735E);
+    height: 100%;
 }
 main{
     background-color: rgb(255, 255, 255);
@@ -19,11 +19,12 @@ main{
 h1{
     color: #038C3E;
     text-align: center;
- text-shadow:1px 1px 1px #035727 ;
+    text-shadow:1px 1px 1px #035727 ;
 
 }
-h2{color: #0CF25D;
-text-align: center;
+h2{
+    color: #0CF25D;
+    text-align: center;
 }
 p{
     text-align: justify;
